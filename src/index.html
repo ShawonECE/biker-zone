@@ -22,33 +22,116 @@
 </head>
 <body>
     <header>
-      <nav class="container mx-auto px-4">
+      <nav class="container mx-auto mb-12 px-4">
         <div class="navbar">
           <div class="navbar-start">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </div>
-              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <ul tabindex="0" class="menu menu-sm dropdown-content font-poppins mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 <li><a>Home</a></li>
                 <li><a>Shop</a></li>
                 <li><a>News</a></li>
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="font-bold text-2xl lg:text-4xl">Bike Dekho</a>
+            <a class="font-bold font-poppins text-2xl lg:text-4xl">Bike Dekho</a>
           </div>
           <div class="navbar-end">
-            <ul class="menu menu-horizontal px-1 hidden lg:flex">
+            <ul class="menu menu-horizontal font-poppins px-1 hidden lg:flex">
                 <li><a>Home</a></li>
                 <li><a>Shop</a></li>
                 <li><a>News</a></li>
                 <li><a>Contact</a></li>
             </ul>
-            <button class="btn text-white bg-[#E76F51]">Button</button>
+            <button class="btn text-white font-poppins bg-[#E76F51]">Button</button>
           </div>
         </div>
       </nav>
+      <section class="container mx-auto mb-16 px-4">
+        <div class="carousel w-full bg-carousel rounded-md">
+          <div id="slide1" class="carousel-item relative w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4 md:p-8 lg:p-12">
+              <div class="m-auto">
+                <h1 class="font-poppins font-bold text-6xl mb-5">Ride on R15 V4 with Smile</h1>
+                <p class="font-poppins text-base font-light text-slate-500 mb-6">Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  <button class="btn text-white font-poppins bg-[#E76F51]">Purchase</button>
+              </div>
+              <div>
+                <img src="../images/slider/bike1.png" alt="" class="w-4/5 m-auto">
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4 md:p-8 lg:p-12">
+              <div class="m-auto">
+                <h1 class="font-poppins font-bold text-6xl mb-5">Ride on R15 V4 with Smile</h1>
+                <p class="font-poppins text-base font-light text-slate-500 mb-6">Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  <button class="btn text-white font-poppins bg-[#E76F51]">Purchase</button>
+              </div>
+              <div>
+                <img src="../images/slider/bike2.png" alt="" class="w-4/5 m-auto">
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4 md:p-8 lg:p-12">
+              <div class="m-auto">
+                <h1 class="font-poppins font-bold text-6xl mb-5">Ride on R15 V4 with Smile</h1>
+                <p class="font-poppins text-base font-light text-slate-500 mb-6">Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  <button class="btn text-white font-poppins bg-[#E76F51]">Purchase</button>
+              </div>
+              <div>
+                <img src="../images/slider/bike3.png" alt="" class="w-4/5 m-auto">
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide4" class="carousel-item relative w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-2 p-4 md:p-8 lg:p-12">
+              <div class="m-auto">
+                <h1 class="font-poppins font-bold text-6xl mb-5">Ride on R15 V4 with Smile</h1>
+                <p class="font-poppins text-base font-light text-slate-500 mb-6">Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  <button class="btn text-white font-poppins bg-[#E76F51]">Purchase</button>
+              </div>
+              <div>
+                <img src="../images/slider/bike4.png" alt="" class="w-4/5 m-auto">
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
+    <main>
+      <section class="container mx-auto mb-16 px-4">
+        <h2 class="text-5xl font-poppins font-semibold text-center">Featured Bikes In This Year</h2>
+        <p class="font-poppins text-center text-[#E76F51] font-semibold text-sm mb-12"><span class="border-b border-[#E76F51]">Best Bike Collection</span></p>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 md:gap-24 lg:gap-32">
+          <img src="../images/others/feature-bike.png" alt="" class="w-3/4 mx-auto">
+          <img src="../images/others/feature-bike.png" alt="" class="w-3/4 mx-auto">
+          <img src="../images/others/feature-bike.png" alt="" class="w-3/4 mx-auto">
+        </div>
+      </section>
+    </main>
 </body>
 </html> 
